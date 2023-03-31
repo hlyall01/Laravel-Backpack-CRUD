@@ -1,5 +1,5 @@
 {
-    "name": "hlyall01/Laravel-Backpack-CRUD",
+    "name": "hlyall01/laravel-backpack-crud",
     "type": "library",
     "description": "Quickly build an admin interfaces using Laravel, CoreUI, Bootstrap and jQuery.",
     "keywords": [
@@ -24,12 +24,6 @@
     "homepage": "https://github.com/laravel-backpack/CRUD",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Cristian Tabacitu",
-            "email": "cristian.tabacitu@backpackforlaravel.com",
-            "homepage": "https://backpackforlaravel.com",
-            "role": "Creator & Maintainer"
-        }
     ],
     "require": {
         "laravel/framework": "^10.0|^9.0|^8.69",
