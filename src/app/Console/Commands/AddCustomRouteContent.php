@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 
 class AddCustomRouteContent extends Command
 {
-    use hlyall01\Backpack\CRUD\app\Console\Commands\Traits\PrettyCommandOutput;
+    use \hlyall01\Backpack\CRUD\app\Console\Commands\Traits\PrettyCommandOutput;
 
     /**
      * The name and signature of the console command.
