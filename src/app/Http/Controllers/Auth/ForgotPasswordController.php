@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Http\Controllers\Auth;
+namespace hlyall01\Backpack\CRUD\app\Http\Controllers\Auth;
 
 use Backpack\CRUD\app\Library\Auth\PasswordBrokerManager;
 use Illuminate\Http\JsonResponse;

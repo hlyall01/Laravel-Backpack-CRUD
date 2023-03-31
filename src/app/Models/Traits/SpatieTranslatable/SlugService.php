@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Models\Traits\SpatieTranslatable;
+namespace hlyall01\Backpack\CRUD\app\Models\Traits\SpatieTranslatable;
 
 use Illuminate\Database\Eloquent\Model;
 

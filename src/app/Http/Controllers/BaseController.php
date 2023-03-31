@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Http\Controllers;
+namespace hlyall01\Backpack\CRUD\app\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

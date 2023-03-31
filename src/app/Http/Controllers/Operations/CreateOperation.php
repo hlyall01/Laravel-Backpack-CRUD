@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Http\Controllers\Operations;
+namespace hlyall01\Backpack\CRUD\app\Http\Controllers\Operations;
 
 use Illuminate\Support\Facades\Route;
 

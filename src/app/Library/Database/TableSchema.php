@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Library\Database;
+namespace hlyall01\Backpack\CRUD\app\Library\Database;
 
 class TableSchema
 {

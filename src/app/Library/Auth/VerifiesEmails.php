@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Library\Auth;
+namespace hlyall01\Backpack\CRUD\app\Library\Auth;
 
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\Events\Verified;

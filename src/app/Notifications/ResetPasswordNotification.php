@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Notifications;
+namespace hlyall01\Backpack\CRUD\app\Notifications;
 
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Notifications\Messages\MailMessage;

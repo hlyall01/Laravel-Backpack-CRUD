@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Models\Traits\SpatieTranslatable;
+namespace hlyall01\Backpack\CRUD\app\Models\Traits\SpatieTranslatable;
 
 use Cviebrock\EloquentSluggable\Sluggable as OriginalSluggable;
 use Illuminate\Database\Eloquent\Builder;

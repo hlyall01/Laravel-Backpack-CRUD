@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Exceptions;
+namespace hlyall01\Backpack\CRUD\app\Exceptions;
 
 use Exception;
 

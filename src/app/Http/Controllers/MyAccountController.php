@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Http\Controllers;
+namespace hlyall01\Backpack\CRUD\app\Http\Controllers;
 
 use Alert;
 use Backpack\CRUD\app\Http\Requests\AccountInfoRequest;

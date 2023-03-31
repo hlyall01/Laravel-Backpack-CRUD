@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Console\Commands\Addons;
+namespace hlyall01\Backpack\CRUD\app\Console\Commands\Addons;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Library\CrudPanel\Traits;
+namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel\Traits;
 
 trait Errors
 {

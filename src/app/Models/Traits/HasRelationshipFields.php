@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Models\Traits;
+namespace hlyall01\Backpack\CRUD\app\Models\Traits;
 
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Backpack\CRUD\app\Library\Database\TableSchema;

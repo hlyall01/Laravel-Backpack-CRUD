@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Console\Commands;
+namespace hlyall01\Backpack\CRUD\app\Console\Commands;
 
 use Artisan;
 use Illuminate\Console\Command;

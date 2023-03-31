@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\app\Library\Auth;
+namespace hlyall01\Backpack\CRUD\app\Library\Auth;
 
 use Backpack\CRUD\app\Notifications\ResetPasswordNotification;
 use Closure;
