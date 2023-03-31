@@ -42,13 +42,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Backpack\\CRUD\\": "src"
+            "hlyall01\\Backpack\\CRUD\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Backpack\\CRUD\\Tests\\": "tests",
-            "Backpack\\CRUD\\Tests81\\": "tests81"
+            "hlyall01\\Backpack\\CRUD\\Tests\\": "tests",
+            "hlyall01\\Backpack\\CRUD\\Tests81\\": "tests81"
         },
         "files": ["src/helpers.php"],
         "exclude-from-classmap": [
@@ -66,11 +66,11 @@
         },
         "laravel": {
             "providers": [
-                "Backpack\\CRUD\\BackpackServiceProvider"
+                "hlyall01\\Backpack\\CRUD\\BackpackServiceProvider"
             ],
             "aliases": {
-                "CRUD": "Backpack\\CRUD\\app\\Library\\CrudPanel\\CrudPanelFacade",
-                "Widget": "Backpack\\CRUD\\app\\Library\\Widget"
+                "CRUD": "hlyall01\\Backpack\\CRUD\\app\\Library\\CrudPanel\\CrudPanelFacade",
+                "Widget": "hlyall01\\Backpack\\CRUD\\app\\Library\\Widget"
             }
         }
     },
