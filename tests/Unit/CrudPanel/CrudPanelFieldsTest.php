@@ -1,11 +1,11 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
 use Arr;
-use Backpack\CRUD\app\Library\CrudPanel\CrudField;
-use Backpack\CRUD\Tests\Unit\Models\Star;
-use Backpack\CRUD\Tests\Unit\Models\User;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudField;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Star;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\User;
 use Illuminate\Http\Request;
 
 /**

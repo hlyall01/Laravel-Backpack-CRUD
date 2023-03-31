@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests81\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests81\Unit\CrudPanel;
 
-use Backpack\CRUD\Tests\Unit\CrudPanel\BaseDBCrudPanelTest;
+use hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel\BaseDBCrudPanelTest;
 use Faker\Factory;
 
 /**
@@ -16,7 +16,7 @@ class CrudPanelUpdateTest extends BaseDBCrudPanelTest
             return;
         }
 
-        $this->crudPanel->setModel(\Backpack\CRUD\Tests81\Unit\Models\ArticleWithEnum::class);
+        $this->crudPanel->setModel(\hlyall01\Backpack\CRUD\Tests81\Unit\Models\ArticleWithEnum::class);
         $this->crudPanel->addFields([[
             'name' => 'id',
             'type' => 'hidden',

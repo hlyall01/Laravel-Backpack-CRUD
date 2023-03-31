@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD;
+namespace hlyall01\Backpack\CRUD;
 
 trait Stats
 {

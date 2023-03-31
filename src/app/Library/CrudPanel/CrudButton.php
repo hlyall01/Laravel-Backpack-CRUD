@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel;
 
-use Backpack\CRUD\ViewNamespaces;
+use hlyall01\Backpack\CRUD\ViewNamespaces;
 
 /**
  * Adds fluent syntax to Backpack CRUD Buttons.
@@ -390,7 +390,7 @@ class CrudButton
     /**
      * Access the global CrudPanel object.
      *
-     * @return \Backpack\CRUD\app\Library\CrudPanel\CrudPanel
+     * @return \hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanel
      */
     public function crud()
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests81\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests81\Unit\CrudPanel;
 
-use Backpack\CRUD\Tests\Unit\CrudPanel\BaseDBCrudPanelTest;
+use hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel\BaseDBCrudPanelTest;
 
 /**
  * @covers Backpack\CRUD\app\Library\CrudPanel\Traits\Fields
@@ -12,7 +12,7 @@ class CrudPanelFieldsTest extends BaseDBCrudPanelTest
 {
     public function testCheckReturnTypesForWhenInferingRelation()
     {
-        $this->crudPanel->setModel(\Backpack\CRUD\Tests81\Unit\Models\UserWithReturnTypes::class);
+        $this->crudPanel->setModel(\hlyall01\Backpack\CRUD\Tests81\Unit\Models\UserWithReturnTypes::class);
         $this->crudPanel->addField('isAnAttribute');
         $this->crudPanel->addField('isARelation');
 

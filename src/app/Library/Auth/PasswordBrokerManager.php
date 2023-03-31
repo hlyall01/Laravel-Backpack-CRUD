@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\Auth;
 
-use Backpack\CRUD\app\Library\Auth\PasswordBroker as BackpackPasswordBroker;
+use hlyall01\Backpack\CRUD\app\Library\Auth\PasswordBroker as BackpackPasswordBroker;
 use Illuminate\Auth\Passwords\PasswordBrokerManager as OriginalPasswordBrokerManager;
 use InvalidArgumentException;
 

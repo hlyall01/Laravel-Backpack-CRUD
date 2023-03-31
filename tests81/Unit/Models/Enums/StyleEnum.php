@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\Tests81\Unit\Models\Enums;
+namespace hlyall01\Backpack\CRUD\Tests81\Unit\Models\Enums;
 
 enum StyleEnum
 {

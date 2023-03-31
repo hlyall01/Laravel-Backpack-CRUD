@@ -13,7 +13,7 @@ class CrudController extends Controller
     use DispatchesJobs, ValidatesRequests;
 
     /**
-     * @var \Backpack\CRUD\app\Library\CrudPanel\CrudPanel
+     * @var \hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanel
      */
     public $crud;
     public $data = [];

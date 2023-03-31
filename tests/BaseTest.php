@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests;
+namespace hlyall01\Backpack\CRUD\Tests;
 
-use Backpack\CRUD\BackpackServiceProvider;
+use hlyall01\Backpack\CRUD\BackpackServiceProvider;
 use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase;
 

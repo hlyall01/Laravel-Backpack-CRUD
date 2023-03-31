@@ -6,8 +6,8 @@ use Illuminate\Console\Command;
 
 class RequirePro extends Command
 {
-    use \Backpack\CRUD\app\Console\Commands\Traits\PrettyCommandOutput;
-    use \Backpack\CRUD\app\Console\Commands\Traits\AddonsHelper;
+    use hlyall01\Backpack\CRUD\app\Console\Commands\Traits\PrettyCommandOutput;
+    use hlyall01\Backpack\CRUD\app\Console\Commands\Traits\AddonsHelper;
 
     /**
      * The name and signature of the console command.

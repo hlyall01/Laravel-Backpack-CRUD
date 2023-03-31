@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Http\Controllers\Auth;
 
-use Backpack\CRUD\app\Library\Auth\PasswordBrokerManager;
+use hlyall01\Backpack\CRUD\app\Library\Auth\PasswordBrokerManager;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

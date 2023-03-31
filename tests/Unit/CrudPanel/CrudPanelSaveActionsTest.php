@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
 /**
  * @covers Backpack\CRUD\app\Library\CrudPanel\Traits\SaveActions

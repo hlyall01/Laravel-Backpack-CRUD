@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudButton;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudButton;
 
 /**
  * @covers Backpack\CRUD\app\Library\CrudPanel\Traits\Buttons

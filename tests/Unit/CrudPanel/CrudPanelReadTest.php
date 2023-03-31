@@ -1,10 +1,10 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\Tests\Unit\Models\Article;
-use Backpack\CRUD\Tests\Unit\Models\Role;
-use Backpack\CRUD\Tests\Unit\Models\User;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Article;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Role;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\User;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -286,7 +286,7 @@ class CrudPanelReadTest extends BaseDBCrudPanelTest
     public function testEnableDetailsRow()
     {
         if (! backpack_pro()) {
-            $this->expectException(\Backpack\CRUD\app\Exceptions\BackpackProRequiredException::class);
+            $this->expectException(\hlyall01\Backpack\CRUD\app\Exceptions\BackpackProRequiredException::class);
         }
 
         $this->crudPanel->setOperation('create');
@@ -321,7 +321,7 @@ class CrudPanelReadTest extends BaseDBCrudPanelTest
     public function testEnableExportButtons()
     {
         if (! backpack_pro()) {
-            $this->expectException(\Backpack\CRUD\app\Exceptions\BackpackProRequiredException::class);
+            $this->expectException(\hlyall01\Backpack\CRUD\app\Exceptions\BackpackProRequiredException::class);
         }
 
         $this->crudPanel->enableExportButtons();

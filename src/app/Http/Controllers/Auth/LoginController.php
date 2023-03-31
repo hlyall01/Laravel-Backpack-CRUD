@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Http\Controllers\Auth;
 
-use Backpack\CRUD\app\Library\Auth\AuthenticatesUsers;
+use hlyall01\Backpack\CRUD\app\Library\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 

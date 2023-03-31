@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel\Traits;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudButton;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudButton;
 use Illuminate\Support\Collection;
 
 trait Buttons
@@ -66,7 +66,7 @@ trait Buttons
      * @param  bool|string  $position  Position on the stack: beginning or end. If false, the position will be
      *                                 'beginning' for the line stack or 'end' otherwise.
      * @param  bool  $replaceExisting  True if a button with the same name on the given stack should be replaced.
-     * @return \Backpack\CRUD\app\Library\CrudPanel\CrudButton The new CRUD button.
+     * @return \hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudButton The new CRUD button.
      */
     public function addButton($stack, $name, $type, $content, $position = false, $replaceExisting = true)
     {
@@ -251,7 +251,7 @@ trait Buttons
      * Add a new button to the current CRUD operation.
      *
      * @param  string|array  $attributes  Button name or array that contains name, stack, type and content.
-     * @return \Backpack\CRUD\app\Library\CrudPanel\CrudButton
+     * @return \hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudButton
      */
     public function button($attributes = null)
     {

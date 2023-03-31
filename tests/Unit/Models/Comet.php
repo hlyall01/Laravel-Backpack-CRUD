@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\Models;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\Models;
 
-use Backpack\CRUD\app\Models\Traits\CrudTrait;
+use hlyall01\Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Comet extends Model

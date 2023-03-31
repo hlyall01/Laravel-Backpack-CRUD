@@ -1,13 +1,13 @@
 @extends(backpack_view('layouts.top_left'))
 
 @php
-	// Merge widgets that were fluently declared with widgets declared without the fluent syntax: 
+	// Merge widgets that were fluently declared with widgets declared without the fluent syntax:
 	// - $data['widgets']['before_content']
 	// - $data['widgets']['after_content']
 	if (isset($widgets)) {
 		foreach ($widgets as $section => $widgetSection) {
 			foreach ($widgetSection as $key => $widget) {
-				\Backpack\CRUD\app\Library\Widget::add($widget)->section($section);
+				\hlyall01\Backpack\CRUD\app\Library\Widget::add($widget)->section($section);
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudTrait;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudTrait;
 
 use Unit\CrudPanel\Models\FakeColumnsModel;
 

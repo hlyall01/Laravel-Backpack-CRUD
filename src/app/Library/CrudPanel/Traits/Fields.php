@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel\Traits;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudField;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudField;
 use Illuminate\Support\Arr;
 
 trait Fields

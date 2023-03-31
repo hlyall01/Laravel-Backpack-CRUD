@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\Auth;
 
-use Backpack\CRUD\app\Notifications\ResetPasswordNotification;
+use hlyall01\Backpack\CRUD\app\Notifications\ResetPasswordNotification;
 use Closure;
 use Illuminate\Auth\Passwords\PasswordBroker as OriginalPasswordBroker;
 

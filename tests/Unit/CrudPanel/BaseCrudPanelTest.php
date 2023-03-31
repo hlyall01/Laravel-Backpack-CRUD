@@ -1,10 +1,10 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
-use Backpack\CRUD\Tests\BaseTest;
-use Backpack\CRUD\Tests\Unit\Models\TestModel;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
+use hlyall01\Backpack\CRUD\Tests\BaseTest;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\TestModel;
 
 abstract class BaseCrudPanelTest extends BaseTest
 {

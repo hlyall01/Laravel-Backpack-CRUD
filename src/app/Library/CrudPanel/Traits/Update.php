@@ -214,7 +214,7 @@ trait Update
      */
     private function getModelWithFakes($model)
     {
-        if (in_array(\Backpack\CRUD\app\Models\Traits\CrudTrait::class, class_uses_recursive($model))) {
+        if (in_array(\hlyall01\Backpack\CRUD\app\Models\Traits\CrudTrait::class, class_uses_recursive($model))) {
             return $model->withFakes();
         }
 

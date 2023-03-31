@@ -2,8 +2,8 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel\Traits;
 
-use Backpack\CRUD\app\Exceptions\BackpackProRequiredException;
-use Backpack\CRUD\ViewNamespaces;
+use hlyall01\Backpack\CRUD\app\Exceptions\BackpackProRequiredException;
+use hlyall01\Backpack\CRUD\ViewNamespaces;
 
 trait Views
 {

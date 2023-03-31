@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Console\Commands;
 
-use Backpack\CRUD\BackpackServiceProvider;
+use hlyall01\Backpack\CRUD\BackpackServiceProvider;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;

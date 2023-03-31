@@ -1,9 +1,9 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\Http;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\Http;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
-use Backpack\CRUD\Tests\BaseTest;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
+use hlyall01\Backpack\CRUD\Tests\BaseTest;
 
 /**
  * @covers Backpack\CRUD\app\Http\Controllers\CrudController

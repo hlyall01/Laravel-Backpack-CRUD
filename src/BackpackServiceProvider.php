@@ -1,10 +1,10 @@
 <?php
 
-namespace Backpack\CRUD;
+namespace hlyall01\Backpack\CRUD;
 
-use Backpack\CRUD\app\Http\Middleware\ThrottlePasswordRecovery;
-use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
-use Backpack\CRUD\app\Library\Database\DatabaseSchema;
+use hlyall01\Backpack\CRUD\app\Http\Middleware\ThrottlePasswordRecovery;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
+use hlyall01\Backpack\CRUD\app\Library\Database\DatabaseSchema;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
@@ -14,18 +14,18 @@ class BackpackServiceProvider extends ServiceProvider
     use Stats;
 
     protected $commands = [
-        \Backpack\CRUD\app\Console\Commands\Install::class,
-        \Backpack\CRUD\app\Console\Commands\AddSidebarContent::class,
-        \Backpack\CRUD\app\Console\Commands\AddCustomRouteContent::class,
-        \Backpack\CRUD\app\Console\Commands\PublishAssets::class,
-        \Backpack\CRUD\app\Console\Commands\Version::class,
-        \Backpack\CRUD\app\Console\Commands\CreateUser::class,
-        \Backpack\CRUD\app\Console\Commands\PublishBackpackMiddleware::class,
-        \Backpack\CRUD\app\Console\Commands\PublishView::class,
-        \Backpack\CRUD\app\Console\Commands\Addons\RequireDevTools::class,
-        \Backpack\CRUD\app\Console\Commands\Addons\RequireEditableColumns::class,
-        \Backpack\CRUD\app\Console\Commands\Addons\RequirePro::class,
-        \Backpack\CRUD\app\Console\Commands\Fix::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\Install::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\AddSidebarContent::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\AddCustomRouteContent::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\PublishAssets::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\Version::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\CreateUser::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\PublishBackpackMiddleware::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\PublishView::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\Addons\RequireDevTools::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\Addons\RequireEditableColumns::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\Addons\RequirePro::class,
+        \hlyall01\Backpack\CRUD\app\Console\Commands\Fix::class,
     ];
 
     // Indicates if loading of the provider is deferred.

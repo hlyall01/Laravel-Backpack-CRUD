@@ -1,15 +1,15 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\Tests\Unit\Models\Article;
-use Backpack\CRUD\Tests\Unit\Models\Bang;
-use Backpack\CRUD\Tests\Unit\Models\Comet;
-use Backpack\CRUD\Tests\Unit\Models\Planet;
-use Backpack\CRUD\Tests\Unit\Models\PlanetNonNullable;
-use Backpack\CRUD\Tests\Unit\Models\Star;
-use Backpack\CRUD\Tests\Unit\Models\Universe;
-use Backpack\CRUD\Tests\Unit\Models\User;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Article;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Bang;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Comet;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Planet;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\PlanetNonNullable;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Star;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Universe;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\User;
 use Faker\Factory;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Arr;

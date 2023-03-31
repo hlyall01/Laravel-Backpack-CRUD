@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 
 class AddCustomRouteContent extends Command
 {
-    use \Backpack\CRUD\app\Console\Commands\Traits\PrettyCommandOutput;
+    use hlyall01\Backpack\CRUD\app\Console\Commands\Traits\PrettyCommandOutput;
 
     /**
      * The name and signature of the console command.
@@ -51,7 +51,7 @@ class AddCustomRouteContent extends Command
 
         // Validate file exists
         if (! $disk->exists($path)) {
-            Artisan::call('vendor:publish', ['--provider' => \Backpack\CRUD\BackpackServiceProvider::class, '--tag' => 'custom_routes']);
+            Artisan::call('vendor:publish', ['--provider' => \hlyall01\Backpack\CRUD\BackpackServiceProvider::class, '--tag' => 'custom_routes']);
             $this->handle();
 
             return;

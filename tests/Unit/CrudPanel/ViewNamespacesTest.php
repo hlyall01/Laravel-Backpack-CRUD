@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\ViewNamespaces;
+use hlyall01\Backpack\CRUD\ViewNamespaces;
 use Config;
 
 /**

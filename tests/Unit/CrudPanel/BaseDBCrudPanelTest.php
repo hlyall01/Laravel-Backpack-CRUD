@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 abstract class BaseDBCrudPanelTest extends BaseCrudPanelTest

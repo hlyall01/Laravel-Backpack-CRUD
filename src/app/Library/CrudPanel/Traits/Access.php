@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel\Traits;
 
-use Backpack\CRUD\app\Exceptions\AccessDeniedException;
+use hlyall01\Backpack\CRUD\app\Exceptions\AccessDeniedException;
 
 trait Access
 {
@@ -87,7 +87,7 @@ trait Access
      * @param  string  $operation
      * @return bool
      *
-     * @throws \Backpack\CRUD\Exception\AccessDeniedException in case the operation is not enabled
+     * @throws \hlyall01\Backpack\CRUD\Exception\AccessDeniedException in case the operation is not enabled
      */
     public function hasAccessOrFail($operation)
     {

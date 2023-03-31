@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\app\Exceptions\AccessDeniedException;
+use hlyall01\Backpack\CRUD\app\Exceptions\AccessDeniedException;
 
 /**
  * @covers Backpack\CRUD\app\Library\CrudPanel\Traits\Access

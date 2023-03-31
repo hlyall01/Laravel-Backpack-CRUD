@@ -2,7 +2,7 @@
 
 namespace hlyall01\Backpack\CRUD\app\Library\CrudPanel\Traits;
 
-use Backpack\CRUD\ViewNamespaces;
+use hlyall01\Backpack\CRUD\ViewNamespaces;
 use Carbon\Carbon;
 use Doctrine\DBAL\Types\JsonType;
 use Validator;

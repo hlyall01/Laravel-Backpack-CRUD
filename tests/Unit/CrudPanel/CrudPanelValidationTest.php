@@ -1,9 +1,9 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\Tests\Unit\Http\Requests\UserRequest;
-use Backpack\CRUD\Tests\Unit\Models\User;
+use hlyall01\Backpack\CRUD\Tests\Unit\Http\Requests\UserRequest;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\User;
 
 /**
  * @covers Backpack\CRUD\app\Library\CrudPanel\Traits\Validation
@@ -161,7 +161,7 @@ class CrudPanelValidationTest extends BaseDBCrudPanelTest
         $this->crudPanel->setOperation('create');
 
         try {
-            $this->crudPanel->setValidation('\Backpack\CRUD\Tests\Unit\Models\User');
+            $this->crudPanel->setValidation('\hlyall01\Backpack\CRUD\Tests\Unit\Models\User');
         } catch (\Throwable $e) {
         }
         $this->assertEquals(

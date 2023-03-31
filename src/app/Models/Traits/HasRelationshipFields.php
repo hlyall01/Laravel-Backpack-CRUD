@@ -2,8 +2,8 @@
 
 namespace hlyall01\Backpack\CRUD\app\Models\Traits;
 
-use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Backpack\CRUD\app\Library\Database\TableSchema;
+use hlyall01\Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
+use hlyall01\Backpack\CRUD\app\Library\Database\TableSchema;
 use Illuminate\Support\Facades\DB;
 
 /*

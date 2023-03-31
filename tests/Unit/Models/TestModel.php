@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\Models;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\Models;
 
-use Backpack\CRUD\app\Models\Traits\CrudTrait;
+use hlyall01\Backpack\CRUD\app\Models\Traits\CrudTrait;
 
 class TestModel extends \Illuminate\Database\Eloquent\Model
 {

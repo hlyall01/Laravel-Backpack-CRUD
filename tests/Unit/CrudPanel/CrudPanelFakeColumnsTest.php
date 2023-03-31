@@ -1,8 +1,8 @@
 <?php
 
-namespace Backpack\CRUD\Tests\Unit\CrudPanel;
+namespace hlyall01\Backpack\CRUD\Tests\Unit\CrudPanel;
 
-use Backpack\CRUD\Tests\Unit\Models\Article;
+use hlyall01\Backpack\CRUD\Tests\Unit\Models\Article;
 
 /**
  * @covers Backpack\CRUD\app\Library\CrudPanel\Traits\FakeColumns
